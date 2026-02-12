@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+header {
+    padding: 10px;
+    background-color: #25282F;
+}
+#wraperDiv{
+    display: flex;
+}
+#globalSearchInput{
+    color: white;
+    background-color: transparent;
+    border:none;
+    padding-left: 10px;
+}
+#globalSearch {
+    font-size: 21px;
+    /* height: 32px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 250px;
+    border: gray solid 0.5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#logoSpan{
+    margin-right: 10px;
+}
+kbd{
+    color: white;
+}
+#topProfilePicture{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+#topBarNav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+.topNavAnchor, .topNavMenu{
+    margin: 0.5em;
+    color: white;
+    font-weight:bold;
+    
+}
+#topBarLinks, #topBarMenus{
+    align-items: center;
+}
+#searchButton{
+    width: 21px;
+    height: 21px;
+    background-color: transparent;
+    border: gray solid 0.5px;
+    border-radius: 5px;
+}
+
+.topNavAnchor{
+    color: white;
+}
