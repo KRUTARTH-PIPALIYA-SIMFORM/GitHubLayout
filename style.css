@@ -6,40 +6,45 @@
 }
 
 header {
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 1rem;
     background-color: #25282F;
 }
 #wraperDiv{
     display: flex;
+    margin-right: auto;
 }
 #globalSearchInput{
     color: white;
     background-color: transparent;
     border:none;
-    padding-left: 10px;
+    /* padding-left: 1rem; */
 }
 #globalSearch {
-    font-size: 21px;
+    font-size: 1.5rem;
+    padding: 0px 0.7rem;
     /* height: 32px; */
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
     border: gray solid 0.5px;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     
 }
 #logoSpan{
-    margin-right: 10px;
+    margin-right: 1rem;
 }
 kbd{
     color: white;
 }
 #topProfilePicture{
-    height: 32px;
-    width: 32px;
+    height: 2rem;
+    width: 2rem;
     border-radius: 50%;
 }
 
@@ -52,7 +57,7 @@ ul{
     display: flex;
 }
 .topNavAnchor, .topNavMenu{
-    margin: 0.5em;
+    margin: 0.5rem;
     color: white;
     font-weight:bold;
     
@@ -61,13 +66,19 @@ ul{
     align-items: center;
 }
 #searchButton{
-    width: 21px;
-    height: 21px;
+    width: 1.5rem;
+    height: 1.5rem;
     background-color: transparent;
     border: gray solid 0.5px;
-    border-radius: 5px;
+    border-radius: 0.3rem;
 }
 
 .topNavAnchor{
     color: white;
+}
+
+#bigPfp{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
 }
