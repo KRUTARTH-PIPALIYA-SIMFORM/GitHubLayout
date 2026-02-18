@@ -157,6 +157,7 @@ ul{
 
 #main-wrapper{
     #repositoriesSection{
+        margin-bottom: 2rem;
         #pinHeading{
             font-weight: normal;
             font-size: 1.2rem;
@@ -202,6 +203,21 @@ ul{
                 }
             }
         }
-
+    }
+    #heatMapSection{
+        #heatMapTop{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: normal;
+            padding: 0 0.2rem;
+            margin-bottom: 0.5rem;
+            span:nth-child(1){
+                font-size: 1.2rem;
+            }
+        }
+        img{
+            width:98%;
+        }
     }
 }
