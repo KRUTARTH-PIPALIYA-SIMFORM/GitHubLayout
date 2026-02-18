@@ -7,27 +7,23 @@
 
 header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    /* justify-content: space-between; */
     padding: 1rem;
     background-color: #25282F;
 }
 #wraperDiv{
     display: flex;
-    margin-right: auto;
+    gap:1rem;
 }
 #globalSearchInput{
     color: white;
     background-color: transparent;
     border:none;
-    /* padding-left: 1rem; */
 }
 #globalSearch {
     font-size: 1.5rem;
-    padding: 0px 0.7rem;
-    /* height: 32px; */
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0% 0.7rem;
     width: 20rem;
     border: gray solid 0.5px;
     border-radius: 0.5rem;
@@ -35,9 +31,6 @@ header {
     justify-content: space-between;
     align-items: center;
     
-}
-#logoSpan{
-    margin-right: 1rem;
 }
 kbd{
     color: white;
@@ -59,8 +52,7 @@ ul{
 .topNavAnchor, .topNavMenu{
     margin: 0.5rem;
     color: white;
-    font-weight:bold;
-    
+    font-weight:bold; 
 }
 #topBarLinks, #topBarMenus{
     align-items: center;
@@ -81,4 +73,11 @@ ul{
     width: 20rem;
     height: 20rem;
     border-radius: 50%;
+}
+#profile-navbar-list{
+    display: flex;
+    justify-content: center;
+}
+.profile-link{
+    padding: 1rem;
 }
