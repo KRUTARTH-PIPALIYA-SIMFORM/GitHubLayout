@@ -89,3 +89,9 @@ ul{
         border-bottom: 2px orange solid;
     }
 }
+
+.grid-wrapper{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}
