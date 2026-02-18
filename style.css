@@ -69,11 +69,6 @@ ul{
     color: white;
 }
 
-#bigPfp{
-    width: 20rem;
-    height: 20rem;
-    border-radius: 50%;
-}
 #profile-navbar-list{
     display: flex;
     justify-content: center;
@@ -94,4 +89,28 @@ ul{
     margin: 2rem;
     display: flex;
     justify-content: center;
+    
+    aside{
+        margin-top: -4rem;
+        #pfp-status {
+            position: relative;
+            img{
+                width: 20rem;
+                height: 20rem;
+                border-radius: 50%;
+            }
+            div{
+                width: 2rem;
+                aspect-ratio: 1/1;
+                border-radius: 50%;
+                background-color: #ECECEC;
+                position: absolute;
+                top: 75%;
+                right: 24%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
 }
