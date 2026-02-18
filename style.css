@@ -129,7 +129,6 @@ ul{
             }
         }
         #editProfileButton{
-            margin: 1rem;
             width: 20rem;
             padding: 0.5rem;
             background-color: #f6f8fa;
@@ -138,6 +137,19 @@ ul{
         }
         #stats{
             padding: 1rem;
+        }
+        #links{
+            display: block;
+            align-items: center;
+            li > a{
+                color: black;
+                svg{
+                    margin-bottom:-0.25rem;
+                }
+            }
+            li{
+                margin: 0.5rem;
+            }
         }
     }
 }
