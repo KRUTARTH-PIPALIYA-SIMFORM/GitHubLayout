@@ -174,8 +174,9 @@ ul{
         }
 
         #links{
-            display: block;
-            align-items: center;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
             
             li > a{
                 color: black;
@@ -185,9 +186,6 @@ ul{
                 }
             }
             
-            li{
-                margin: 0.5rem;
-            }
         }
 
         @media (max-width:1500px){
