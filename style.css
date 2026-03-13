@@ -22,8 +22,12 @@ header {
     color: white;
     background-color: transparent;
     border:none;
+    width: 100%;
 }
 
+#globalSearchInput:focus {
+    outline: none;
+}
 #globalSearch {
     font-size: 1.5rem;
     padding: 0% 0.7rem;
