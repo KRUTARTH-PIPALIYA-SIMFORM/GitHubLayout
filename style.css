@@ -356,6 +356,11 @@ ul{
     }
 }
 
+#select-year button:nth-child(1){
+    background-color: #0365DB; 
+    color: white;
+}
+
 @media (max-width:820px) {
     
     .grid-wrapper{
